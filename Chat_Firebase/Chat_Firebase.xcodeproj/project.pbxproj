@@ -13,7 +13,9 @@
 		529A05C21F052456004AEAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529A05C01F052456004AEAB7 /* Main.storyboard */; };
 		529A05C41F052456004AEAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529A05C31F052456004AEAB7 /* Assets.xcassets */; };
 		529A05C71F052456004AEAB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529A05C51F052456004AEAB7 /* LaunchScreen.storyboard */; };
+		52ABE1E21F0531490070A8C6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABE1E11F0531490070A8C6 /* ChatViewController.swift */; };
 		52BB4E801F052622008F32B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52BB4E7F1F052622008F32B7 /* GoogleService-Info.plist */; };
+		52BB4E821F0526D1008F32B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB4E811F0526D1008F32B7 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +28,9 @@
 		529A05C31F052456004AEAB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529A05C61F052456004AEAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		529A05C81F052456004AEAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ABE1E11F0531490070A8C6 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		52BB4E7F1F052622008F32B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52BB4E811F0526D1008F32B7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		85EBED4F8294412563EA5F37 /* Pods_Chat_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,9 +77,11 @@
 			isa = PBXGroup;
 			children = (
 				529A05BC1F052456004AEAB7 /* AppDelegate.swift */,
+				52BB4E811F0526D1008F32B7 /* LoginViewController.swift */,
 				529A05BE1F052456004AEAB7 /* ViewController.swift */,
 				52BB4E7F1F052622008F32B7 /* GoogleService-Info.plist */,
 				529A05C01F052456004AEAB7 /* Main.storyboard */,
+				52ABE1E11F0531490070A8C6 /* ChatViewController.swift */,
 				529A05C31F052456004AEAB7 /* Assets.xcassets */,
 				529A05C51F052456004AEAB7 /* LaunchScreen.storyboard */,
 				529A05C81F052456004AEAB7 /* Info.plist */,
@@ -216,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BB4E821F0526D1008F32B7 /* LoginViewController.swift in Sources */,
 				529A05BF1F052456004AEAB7 /* ViewController.swift in Sources */,
+				52ABE1E21F0531490070A8C6 /* ChatViewController.swift in Sources */,
 				529A05BD1F052456004AEAB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -328,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -343,6 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P27E4BB4CC;
 				INFOPLIST_FILE = Chat_Firebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tk.Chat-Firebase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P27E4BB4CC;
 				INFOPLIST_FILE = Chat_Firebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tk.Chat-Firebase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
