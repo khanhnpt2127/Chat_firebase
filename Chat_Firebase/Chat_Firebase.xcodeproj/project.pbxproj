@@ -13,6 +13,7 @@
 		529A05C21F052456004AEAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529A05C01F052456004AEAB7 /* Main.storyboard */; };
 		529A05C41F052456004AEAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529A05C31F052456004AEAB7 /* Assets.xcassets */; };
 		529A05C71F052456004AEAB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529A05C51F052456004AEAB7 /* LaunchScreen.storyboard */; };
+		52BB4E801F052622008F32B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52BB4E7F1F052622008F32B7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		529A05C31F052456004AEAB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529A05C61F052456004AEAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		529A05C81F052456004AEAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BB4E7F1F052622008F32B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		85EBED4F8294412563EA5F37 /* Pods_Chat_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			children = (
 				529A05BC1F052456004AEAB7 /* AppDelegate.swift */,
 				529A05BE1F052456004AEAB7 /* ViewController.swift */,
+				52BB4E7F1F052622008F32B7 /* GoogleService-Info.plist */,
 				529A05C01F052456004AEAB7 /* Main.storyboard */,
 				529A05C31F052456004AEAB7 /* Assets.xcassets */,
 				529A05C51F052456004AEAB7 /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				529A05C71F052456004AEAB7 /* LaunchScreen.storyboard in Resources */,
+				52BB4E801F052622008F32B7 /* GoogleService-Info.plist in Resources */,
 				529A05C41F052456004AEAB7 /* Assets.xcassets in Resources */,
 				529A05C21F052456004AEAB7 /* Main.storyboard in Resources */,
 			);
@@ -379,6 +383,7 @@
 				529A05CD1F052456004AEAB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
